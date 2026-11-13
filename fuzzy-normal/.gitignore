@@ -1,0 +1,7 @@
+web/node_modules/
+web/dist/
+bin/
+fuzzy-app
+fuzzy-server
+*.log
+data/

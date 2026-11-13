@@ -1,0 +1,6 @@
+web/node_modules
+web/dist
+fuzzy-app
+*.log
+.git
+.DS_Store

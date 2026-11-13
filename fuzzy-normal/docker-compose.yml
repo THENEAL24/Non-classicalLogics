@@ -1,0 +1,11 @@
+services:
+  fuzzy-normal:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - fuzzy-data:/app/data
+    restart: unless-stopped
+
+volumes:
+  fuzzy-data:
